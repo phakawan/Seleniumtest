@@ -16,3 +16,17 @@ C:\work\Devops\SeleniumTest\UnitTestProject1\bin\Debug\WebDriver.Support.xml
 C:\work\Devops\SeleniumTest\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
 C:\work\Devops\SeleniumTest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\work\Devops\SeleniumTest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\WebDriver.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\WebDriver.Support.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\WebDriver.xml
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\bin\Debug\WebDriver.Support.xml
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Lee\Source\Repos\Seleniumtest\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache

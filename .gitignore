@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/SeleniumTest/v15
+/SeleniumTest/bin/Debug
+/UnitTestProject1/bin/Debug

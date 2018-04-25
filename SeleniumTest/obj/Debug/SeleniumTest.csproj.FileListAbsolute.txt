@@ -10,3 +10,11 @@ C:\work\Devops\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
 C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
 C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.dll
 C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\bin\Debug\WebDriver.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\obj\Debug\SeleniumTest.csproj.CoreCompileInputs.cache
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\obj\Debug\SeleniumTest.csproj.CopyComplete
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\Users\Lee\Source\Repos\Seleniumtest\SeleniumTest\obj\Debug\SeleniumTest.pdb

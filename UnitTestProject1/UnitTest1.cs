@@ -6,6 +6,7 @@ using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Remote;
 using System.IO;
+using System.Threading;
 
 namespace UnitTestProject1
 {
@@ -23,7 +24,7 @@ namespace UnitTestProject1
           
             switch (browser)
             {
-                case BrowserTest.InternetExploer:
+                case BrowserTest.InternetExploer :
                     InternetExplorerOptions IEoptions = new InternetExplorerOptions()
                     {
                         IgnoreZoomLevel = true,
@@ -51,7 +52,9 @@ namespace UnitTestProject1
         [TestCleanup]
         public void TeardownTest()
         {
+            Thread.Sleep(10000);
             driver.Quit();
+            driver.Dispose();
         }
 
 
@@ -60,17 +63,16 @@ namespace UnitTestProject1
         {
            
             driver.Navigate().GoToUrl("http://localhost:64640/Account/Register");
-            driver.Manage().Window.Maximize();
+         
             driver.FindElement(By.Name("ctl00$MainContent$UserNameCtrl")).SendKeys("Chevron" + DateTime.Now.ToString("ddmmyyyhhmmss"));
             driver.FindElement(By.Name("ctl00$MainContent$Password")).SendKeys("ChevronPassword");
             driver.FindElement(By.Name("ctl00$MainContent$ConfirmPassword")).SendKeys("ChevronPassword");
             driver.FindElement(By.Name("ctl00$MainContent$ctl08")).Click();
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 3));
             wait.Until(wt => wt.FindElement(By.CssSelector(".navbar-right a")));
-            Assert.IsTrue(driver.FindElement(By.CssSelector(".navbar-right a")).Displayed);
+            Assert.AreEqual(driver.FindElements(By.CssSelector(".navbar-right a"))[1].Text,"Sign Out");
             driver.FindElements(By.CssSelector(".navbar-right a"))[1].Click();
-            driver.Close();
-            driver.Dispose();
+          
 
         }
 
@@ -81,16 +83,15 @@ namespace UnitTestProject1
            
             driver.Manage().Timeouts().PageLoad = TimeSpan.FromDays(1);
             driver.Navigate().GoToUrl("http://localhost:64640/Account/Login");
-            driver.Manage().Window.Maximize();
+          
             driver.FindElement(By.Name("ctl00$MainContent$UserName")).SendKeys("Chevron");
             driver.FindElement(By.Name("ctl00$MainContent$Password")).SendKeys("ChevronPassword");
             driver.FindElement(By.Name("ctl00$MainContent$ctl05")).Click();
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 3));
             wait.Until(wt => wt.FindElement(By.CssSelector(".navbar-right a")));
-            Assert.IsTrue(driver.FindElement(By.CssSelector(".navbar-right a")).Displayed);
+            Assert.AreEqual(driver.FindElements(By.CssSelector(".navbar-right a"))[1].Text, "Sign Out");
             driver.FindElements(By.CssSelector(".navbar-right a"))[1].Click();
-            driver.Close();
-            driver.Dispose();
+          
         }
 
 
@@ -111,32 +112,16 @@ namespace UnitTestProject1
         [TestMethod]
         public void Bring()
         {
-
-          
-
-        
+            
             driver.Url = "https://www.bing.com/";
             var element = driver.FindElement(By.Id("sb_form_q"));
             element.SendKeys("webdriver");
             element.SendKeys(Keys.Enter);
-            driver.Quit();
-            driver.Dispose();
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 10));
+            wait.Until(x => x.FindElements(By.CssSelector("#b_results li")));
+           
         }
 
-        [TestMethod]
-        public void TEST()
-        {
-
-            string serverPath = @"C:\Users\Lee\Source\Repos\Seleniumtest\driver";
-            EdgeOptions options = new EdgeOptions();
-            options.UnhandledPromptBehavior = UnhandledPromptBehavior.AcceptAndNotify;
-
-            options.PageLoadStrategy = PageLoadStrategy.Eager;
-            IWebDriver driver = new EdgeDriver(serverPath, options);
-            driver.Url = "www.bing.com";
-            driver.Manage().Timeouts().PageLoad = TimeSpan.FromDays(1);
-            driver.Navigate();
-        }
 
     }
 }
