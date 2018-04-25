@@ -1,0 +1,12 @@
+C:\Users\pwuy\Desktop\VS\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\Users\pwuy\Desktop\VS\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Users\pwuy\Desktop\VS\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\Users\pwuy\Desktop\VS\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\Users\pwuy\Desktop\VS\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\work\Devops\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\work\Devops\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\work\Devops\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
+C:\work\Devops\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
+C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\work\Devops\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
